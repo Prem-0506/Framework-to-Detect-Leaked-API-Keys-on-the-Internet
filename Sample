@@ -1,0 +1,6 @@
+aws_key = "AKIA1234567890ABCD12"
+openai_key = "sk-abc123xyz456abc789def00011122233"
+google_key = "AIzaSyA-EXAMPLEKEY1234567890abcdefghi"
+
+password = "mypassword123"
+token = "1234567890abcdef1234567890abcdef"
