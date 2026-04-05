@@ -1,0 +1,63 @@
+# ================= HIGH ENTROPY (HIGH RISK) =================
+
+# AWS
+aws_access_key = "AKIA9ZQWERTYUIOP1234"
+
+# OpenAI
+openai_key = "sk-9a8b7c6d5e4f3g2h1i0j123456789abc"
+
+# Google Cloud (GCP)
+gcp_api_key = "AIzaSyD-EXAMPLEKEY1234567890abcdEFG"
+
+# Stripe
+stripe_live_key = "sk_51N8ZExampleKey1234567890abcdef"
+
+# Slack
+slack_token = "xoxb-123456789012-123456789012-abcdefghijklmno"
+
+# Shopify
+shopify_token = "shpat_1234567890abcdef1234567890abcd"
+
+# GitHub Token
+github_token = "ghp_1234567890abcdef1234567890abcdef1234"
+
+# Azure
+azure_key = "AZURE-1234567890abcdef1234567890abcd"
+
+# Firebase
+firebase_key = "AAAA123456:ABCdefGhIJKlmNoPQRstuVWXyz"
+
+# ================= MEDIUM ENTROPY (MEDIUM RISK) =================
+
+api_key_generic = "abcd1234abcd1234abcd1234abcd1234"
+token_generic = "XyZ9876LmNo5432PqRsTuvWxYz"
+
+stripe_test_key = "sk_test_1234567890abcdef"
+slack_test_token = "xoxb-test-123456-abcdef"
+
+shopify_test = "shpat_test_abcdef1234567890"
+github_test = "ghp_test_1234567890abcdef"
+
+# ================= LOW ENTROPY (LOW RISK) =================
+
+weak_token1 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+weak_token2 = "123456789012345678901234567890"
+weak_token3 = "abcdabcdabcdabcdabcdabcd"
+
+simple_password = "password123"
+simple_secret = "secretkey"
+
+# ================= CONTEXT-BASED (IMPORTANT FOR REGEX) =================
+
+api_key = "api_key = ABCDEFGHIJKLMNOP1234567890"
+auth_token = "token: ZXCVBNMASDFGHJKL1234567890"
+secret_value = "secret = qwertyuiopasdfghjklzxcvbnm12345"
+
+# ================= EDGE CASES =================
+
+base64_key = "ZXhhbXBsZV9hcGlfa2V5X2Jhc2U2NA=="
+hex_key = "a3f5c9d8e7b6a1c2d3e4f56789abcdef"
+short_key = "abc123XYZ"
+
+json_format = '{"api_key":"1234567890abcdef1234567890"}'
+env_format = "SECRET_KEY=AbCdEfGhIjKlMnOpQrStUvWxYz123456"
