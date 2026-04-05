@@ -1,0 +1,22 @@
+# ---------------- HIGH RISK (Realistic Keys) ----------------
+
+aws_key = "AKIA1234567890ABCD12"
+openai_key = "sk-abc123xyz456abc789def00011122233"
+google_key = "AIzaSyA-EXAMPLEKEY1234567890abcdefghi"
+
+password = "SuperSecurePass@123"
+
+# ---------------- MEDIUM ENTROPY ----------------
+
+api_key = "abcd1234abcd1234abcd1234abcd1234"
+token = "xYz9876LmNo5432PqRsT"
+
+# ---------------- LOW ENTROPY ----------------
+
+weak_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+simple_key = "123456789012345678901234567890"
+
+# ---------------- MIXED CONTEXT ----------------
+
+secret = "ZXhhbXBsZV9iYXNlNjRfc3RyaW5n"
+auth_token = "token_ABCDEF1234567890XYZ"
